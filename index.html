@@ -5,19 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bodyshope</title>
-   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/63834cfd01.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="./images/bodyshop.jpg">
     <style>
-        body {
-            font-family: Lucida Sans, sans-serif;
-        }
-        
-        .icon-div {
-            clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
-            border-radius: none;
-            max-width: 200px;
-        }
 
     </style>
 </head>
@@ -27,7 +18,7 @@
         <nav class=" h-[80px]">
             <div class="fixed z-50  top-0 left-0 right-0 w-full">
                 <div
-                    class="  backdrop-blur-lg max-w-[1400px] mx-auto flex flex-row   justify-between items-center px-8 py-2">
+                    class="  backdrop-blur-lg max-w-[1400px] mx-auto flex flex-row   justify-between items-center px-10 py-2">
 
                     <div class="flex flex-col items-center">
                         <div class="flex items-center  ">
@@ -58,24 +49,25 @@
 
         </nav>
         <!-- banner section -->
-        <div class="bg-[url('/images/banner.png')]   bg-no-repeat  bg-[length:1100px_auto] bg-right-bottom h-[700px] relative  z-20 max-w-[1400px] mx-auto px-12 ">
+        <div
+            class="bg-[url('/images/banner.png')]   bg-no-repeat  bg-[length:1200px_auto] bg-right-bottom h-[800px] relative  z-20 max-w-[1400px] mx-auto px-12 ">
             <div class="w-fit absolute top-32">
                 <h1 class="text-white font-semibold text-[64px] leading-[70px]">Transform<br>Your Body</h1>
                 <p class="text-[#FFFFFF80] text-[16px] leading-5 mt-5">We are dedicated to helping you transform your
                     <br>body and mind through the power of fitness.
                 </p>
-                <div class="flex items-center space-x-6 mt-6">
+                <div class="flex items-center space-x-6 mt-14">
                     <button
                         class="bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white px-7 py-[9px] border-none text-[16px]">Get
                         Started</button>
-                   <div class="bg-gradient-to-r p-[2px] from-[#F66844] to-[#FF921B]">
-                     <button class=" bg-black text-white flex  items-center flex-row gap-2 px-[10px] py-[6px]"><i
-                            class="fa-regular fa-circle-play text-[#F66844] text-xl"></i> Watch Reviews</button>
-                   </div>
+                    <div class="bg-gradient-to-r p-[2px] from-[#F66844] to-[#FF921B]">
+                        <button class=" bg-black text-white flex  items-center flex-row gap-2 px-[10px] py-[6px]"><i
+                                class="fa-regular fa-circle-play text-[#F66844] text-xl"></i> Watch Reviews</button>
+                    </div>
                 </div>
             </div>
             <div
-                class="icon-div flex bg-gradient-to-r from-[#F66844]  absolute -bottom-14 left-0  to-[#FF921B] py-[15px] px-[25px] items-center gap-7 rounded-r">
+                class="[clip-path:polygon(0%_0%,100%_0%,80%_100%,0%_100%)] w-[200px] flex bg-gradient-to-r from-[#F66844]  absolute -bottom-14 left-0  to-[#FF921B] py-[15px] px-[25px] items-center gap-7 rounded-r">
                 <i class="fa-brands fa-google text-xl text-white"></i>
                 <i class="fa-brands fa-facebook-f text-xl text-white"></i>
                 <i class="fa-brands fa-youtube text-xl text-white "></i>
@@ -83,10 +75,81 @@
         </div>
 
     </header>
+    <!-- main content section -->
     <main class="bg-black z-20">
-        <section class="h-[3000px]">
-            <div class="main-content max-w-[1400px] mx-auto b">
+        <section>
+            <div class="max-w-[1400px] mx-auto  py-2  relative">
+                <div class="absolute z-30 mt-24 px-12 w-[100%] ">
+                    <h1 class="text-[#FFFFFF] font-semibold text-5xl"> Fitness Plans & <span
+                            class="text-[#FF921B]">Nutritions</span></h1>
+                    <div class="grid grid-cols-1 md:grid-cols-2 mt-18 gap-0 lg:grid-cols-3">
 
+                        <div class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center border-r-2 border-b-2  border-orange-400">
+                            <img class="w-[70px] h-[70px]" src="./images/workout.png" alt="">
+                            <h1 class="text-white text-[22px] font-semibold">Weight Loss</h1>
+                            <div>
+                                <p class="text-[#FFFFFF80] text-center font-semibold text-[14px]">Weight loss can have causes that
+                                    aren't due to underlying disease. Examples
+                                    include dieting, exercise, malnutrition or lack of access to food.</p>
+                            </div>
+                        </div>
+ 
+                        <div class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center border-r-2 border-b-2  border-orange-400">
+                            <img class="w-[70px] h-[70px]" src="./images/classic.png" alt="">
+                            <h1 class="text-white text-[22px] font-semibold">Classic Yoga</h1>
+                            <div>
+                                <p class="text-[#FFFFFF80] text-center font-semibold text-[14px]">The term "yoga" in the Western
+                                    world often denotes a modern form of Hatha yoga
+                                    and a posture-based physical fitness, stress-relief.</p>
+                            </div>
+                        </div>
+
+ 
+
+                        <div class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center  border-b-2  border-orange-400">
+                            <img class="w-[70px] h-[70px]" src="./images/bicycle.png" alt="">
+                            <h1 class="text-white text-[22px] font-semibold">Cycling</h1>
+                            <div>
+                                <p class="text-[#FFFFFF80] text-center font-semibold text-[14px]">Cycling, also, when on a
+                                    two-wheeled bicycle, called bicycling or biking, is
+                                    the use of cycles for transport, recreation, exercise or sport.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center border-r-2 border-orange-400"><img class="w-[70px] h-[70px]" src="./images/fitness.png" alt="">
+                            <h1 class="text-white text-[22px] font-semibold">Body Building</h1>
+                            <div>
+                                <p class="text-[#FFFFFF80] text-center font-semibold text-[14px]">Bodybuilding is the use of
+                                    progressive resistance exercise to control and
+                                    develop one's muscles by muscle hypertrophy for aesthetic purposes.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center border-r-2 border-orange-400"><img class="w-[70px] h-[70px]" src="./images/dumvel.png" alt="">
+                            <h1 class="text-white text-[22px] font-semibold">Musculation</h1>
+                            <div>
+                                <p class="text-[#FFFFFF80] text-center font-semibold text-[14px]">Weight training is a common type
+                                    of strength training for developing the
+                                    strength, size of skeletal muscles and maintenance of strength.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center "><img class="w-[70px] h-[70px]" src="./images/runing.png" alt="">
+                            <h1 class="text-white text-[22px] font-semibold">Fitness Running</h1>
+                            <div>
+                                <p class="text-[#FFFFFF80] font-semibold text-center text-[14px]">Running is a method of terrestrial
+                                    locomotion allowing humans and other
+                                    animals to move rapidly on foot.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+             <div
+                class=" z-20  opacity-40 mx-auto bg-[url('./images/banner.png')] bg-[length:1230px_auto]  bg-no-repeat bg-right-top h-[900px] trasnform scale-y-[-1]">
+
+            </div>
+           
             </div>
         </section>
     </main>
