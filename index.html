@@ -5,83 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bodyshope</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/63834cfd01.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="./images/bodyshop.jpg">
     <style>
         body {
-            font-family: Lucida Sans;
+            font-family: Lucida Sans, sans-serif;
+        }
+        
+        .icon-div {
+            clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+            border-radius: none;
+            max-width: 200px;
         }
 
-        .banner {
-            background-image: url('./images/banner.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: right top;
-            height: 100vh;
-            max-height: 580px;
-        }
-
-        .wth-btn {
-            border: 1.5px solid;
-            border-image-slice: 1;
-            border-image-source: linear-gradient(to right, #F66844, #FF921B);
-            color: white;
-            padding: 8px 19px
-        }
-
-      
     </style>
 </head>
 
 <body>
     <header class=" bg-black ">
-        <nav class="h-[76px] max-w-[1400px] mx-auto">
-            <div
-                class="container bg-black  fixed w-full mx-auto flex flex-row   justify-between items-center px-8 py-2">
+        <nav class=" h-[80px]">
+            <div class="fixed z-50  top-0 left-0 right-0 w-full">
+                <div
+                    class="  backdrop-blur-lg max-w-[1400px] mx-auto flex flex-row   justify-between items-center px-8 py-2">
 
-                <div class="flex flex-col items-center">
-                    <div class="flex items-center  ">
-                        <img src="./images/logo_left.png" alt="gym logo">
-                        <h1
-                            class="bg-gradient-to-r from-[#F66844] to-[#FF921B80]  text-3xl bg-clip-text text-transparent">
-                            Bodyshope</h1>
-                        <img src="./images/logo_right.png" alt="gym logo">
+                    <div class="flex flex-col items-center">
+                        <div class="flex items-center  ">
+                            <img src="./images/logo_left.png" alt="gym logo">
+                            <h1
+                                class="bg-gradient-to-r from-[#F66844] to-[#FF921B80] font-semibo text-3xl bg-clip-text text-transparent">
+                                Bodyshape</h1>
+                            <img src="./images/logo_right.png" alt="gym logo">
+                        </div>
+                        <p class="bg-gradient-to-r from-[#F66844] to-[#FF921B80]  bg-clip-text text-transparent">Unleash
+                            your inner athlete</p>
+
                     </div>
-                    <p class="bg-gradient-to-r from-[#F66844] to-[#FF921B80]  bg-clip-text text-transparent">Unleash
-                        your inner athlete</p>
 
-                </div>
-
-                <div>
-                    <ul class="flex list-none items-center text-white space-x-6 text-[18px]">
-                        <li class="underline underline-offset-5 decoration-[#F66844]">Home</li>
-                        <li>Services</li>
-                        <li>About</li>
-                        <li>Contacts</li>
-                        <li class="bg-gradient-to-r from-[#F66844] to-[#FF921B] px-[10px] py-1">Join Us</li>
-                    </ul>
+                    <div>
+                        <ul class="flex list-none items-center text-white space-x-6 text-[18px]">
+                            <li class="underline underline-offset-[4px] decoration-[#F66844]">Home</li>
+                            <li>Services</li>
+                            <li>About</li>
+                            <li>Contacts</li>
+                            <li class="bg-gradient-to-r from-[#F66844] to-[#FF921B] px-[10px] py-1">Join Us</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
 
 
         </nav>
-        <div class="banner z-20 max-w-[1400px] mx-auto px-12 flex flex-row justify-start items-center">
-            <div>
-                <h1 class="text-white font-semibold text-[64px] leading-17">Transform<br>Your Body</h1>
+        <!-- banner section -->
+        <div class="bg-[url('/images/banner.png')]   bg-no-repeat  bg-[length:1100px_auto] bg-right-bottom h-[700px] relative  z-20 max-w-[1400px] mx-auto px-12 ">
+            <div class="w-fit absolute top-32">
+                <h1 class="text-white font-semibold text-[64px] leading-[70px]">Transform<br>Your Body</h1>
                 <p class="text-[#FFFFFF80] text-[16px] leading-5 mt-5">We are dedicated to helping you transform your
                     <br>body and mind through the power of fitness.
                 </p>
-                <div class="flex items-center space-x-4 mt-6">
-                    <button class="bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white px-7 py-[9px] border-none text-[16px]">Get
+                <div class="flex items-center space-x-6 mt-6">
+                    <button
+                        class="bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white px-7 py-[9px] border-none text-[16px]">Get
                         Started</button>
-                    <button class="wth-btn flex  items-center flex-row gap-2"><i class="fa-regular fa-circle-play text-[#F66844] text-xl"></i> Watch Reviews</button>
+                   <div class="bg-gradient-to-r p-[2px] from-[#F66844] to-[#FF921B]">
+                     <button class=" bg-black text-white flex  items-center flex-row gap-2 px-[10px] py-[6px]"><i
+                            class="fa-regular fa-circle-play text-[#F66844] text-xl"></i> Watch Reviews</button>
+                   </div>
                 </div>
             </div>
+            <div
+                class="icon-div flex bg-gradient-to-r from-[#F66844]  absolute -bottom-14 left-0  to-[#FF921B] py-[15px] px-[25px] items-center gap-7 rounded-r">
+                <i class="fa-brands fa-google text-xl text-white"></i>
+                <i class="fa-brands fa-facebook-f text-xl text-white"></i>
+                <i class="fa-brands fa-youtube text-xl text-white "></i>
+            </div>
         </div>
-    </header>
-    <main>
 
+    </header>
+    <main class="bg-black z-20">
+        <section class="h-[3000px]">
+            <div class="main-content max-w-[1400px] mx-auto b">
+
+            </div>
+        </section>
     </main>
     <footer>
 
