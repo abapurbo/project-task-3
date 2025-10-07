@@ -18,23 +18,30 @@
         <nav class=" h-[80px]">
             <div class="fixed z-50  top-0 left-0 right-0 w-full">
                 <div
-                    class="  backdrop-blur-lg max-w-[1400px] mx-auto flex flex-row   justify-between items-center px-10 py-2">
+                    class="  backdrop-blur-lg max-w-[1400px] mx-auto flex flex-row   justify-between items-center lg:px-10 px-5 py-3">
 
                     <div class="flex flex-col items-center">
                         <div class="flex items-center  ">
                             <img src="./images/logo_left.png" alt="gym logo">
                             <h1
-                                class="bg-gradient-to-r from-[#F66844] to-[#FF921B80] font-semibo text-3xl bg-clip-text text-transparent">
+                                class="bg-gradient-to-r from-[#F66844] to-[#FF921B80] font-semibo lg:text-3xl text-2xl bg-clip-text text-transparent">
                                 Bodyshape</h1>
                             <img src="./images/logo_right.png" alt="gym logo">
                         </div>
-                        <p class="bg-gradient-to-r from-[#F66844] to-[#FF921B80]  bg-clip-text text-transparent">Unleash
+                        <p
+                            class="bg-gradient-to-r from-[#F66844] to-[#FF921B80] text-[12px]  bg-clip-text text-transparent">
+                            Unleash
                             your inner athlete</p>
 
                     </div>
+                   
+                    <div class="md:hidden">
+                         <i class="fa-solid fa-bars text-white hidden "></i>
+                    </div>
+                    <div class="md:block hidden">
 
-                    <div>
-                        <ul class="flex list-none items-center text-white space-x-6 text-[18px]">
+                        
+                        <ul class="flex list-none  items-center text-white space-x-6 text-[18px]">
                             <li class="underline underline-offset-[4px] decoration-[#F66844]">Home</li>
                             <li>Services</li>
                             <li>About</li>
@@ -50,24 +57,24 @@
         </nav>
         <!-- banner section -->
         <div
-            class="bg-[url('/images/banner.png')]   bg-no-repeat  bg-[length:1200px_auto] bg-right-bottom h-[800px] relative  z-20 max-w-[1400px] mx-auto px-12 ">
-            <div class="w-fit absolute top-32">
-                <h1 class="text-white font-semibold text-[64px] leading-[70px]">Transform<br>Your Body</h1>
+            class="bg-[url('/images/banner.png')] bg-no-repeat    lg:bg-[length:1200px_auto] md:bg-[length:850px_auto] bg-[length:400px_auto] h-[300px] bg-right-bottom lg:h-[800px] md:h-[600px] relative  z-20 max-w-[1400px] mx-auto md:px-12 px-3 ">
+            <div class="md:w-fit  absolute lg:top-32 md:top-16 z-30 ">
+                <h1 class="text-white font-semibold md:text-[64px] text-4xl md:leading-[70px]">Transform<br>Your Body</h1>
                 <p class="text-[#FFFFFF80] text-[16px] leading-5 mt-5">We are dedicated to helping you transform your
                     <br>body and mind through the power of fitness.
                 </p>
-                <div class="flex items-center space-x-6 mt-14">
+                <div class="flex items-center md:space-x-6 space-x-4 mt-8">
                     <button
-                        class="bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white px-7 py-[9px] border-none text-[16px]">Get
+                        class="bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white md:px-7 px-6 md:py-[9px] py-[5px] border-none text-[16px]">Get
                         Started</button>
                     <div class="bg-gradient-to-r p-[2px] from-[#F66844] to-[#FF921B]">
-                        <button class=" bg-black text-white flex  items-center flex-row gap-2 px-[10px] py-[6px]"><i
+                        <button class=" bg-black text-white flex  items-center flex-row md:gap-2 gap-1 md:px-[10px] px-2 md:py-[6px] py-1"><i
                                 class="fa-regular fa-circle-play text-[#F66844] text-xl"></i> Watch Reviews</button>
                     </div>
                 </div>
             </div>
             <div
-                class="[clip-path:polygon(0%_0%,100%_0%,80%_100%,0%_100%)] w-[200px] flex bg-gradient-to-r from-[#F66844]  absolute -bottom-14 left-0  to-[#FF921B] py-[15px] px-[25px] items-center gap-7 rounded-r">
+                class="[clip-path:polygon(0%_0%,100%_0%,80%_100%,0%_100%)] md:w-[200px] w-[140px] flex bg-gradient-to-r from-[#F66844]  absolute -bottom-14 left-0  to-[#FF921B] md:py-[15px] md:px-[25px] px-4 py-3 items-center md:gap-7 gap-3 rounded-r">
                 <i class="fa-brands fa-google text-xl text-white"></i>
                 <i class="fa-brands fa-facebook-f text-xl text-white"></i>
                 <i class="fa-brands fa-youtube text-xl text-white "></i>
@@ -76,16 +83,16 @@
 
     </header>
     <!-- main content section -->
-    <main class="bg-black  z-20">
+    <main class="bg-black z-20">
         <section>
-            <div class="max-w-[1400px] mx-auto  relative">
-                <div class="absolute z-30 mt-24 px-12 w-[100%] mx-auto ">
-                    <h1 class="text-[#FFFFFF] font-semibold text-[47px]"> Fitness Plans & <span
+            <div class="max-w-[1400px] mx-auto bg-black md:h-[1400px] h-[2400px] relative">
+                <div class="absolute z-30 lg:mt-24 md:mt-18 mt-18 md:px-12  px-4 w-[100%] mx-auto ">
+                    <h1 class="text-[#FFFFFF] font-semibold md:text-[47px] text-[26px] text-center md:text-start"> Fitness Plans & <span
                             class="text-[#FF921B]">Nutritions</span></h1>
-                    <div class="grid grid-cols-1 md:grid-cols-2 mt-18 gap-0 lg:grid-cols-3 w-[90%] mx-auto ">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:mt-18 md:mt-16 mt-8 gap-0 lg:grid-cols-3 w-[90%] mx-auto ">
 
                         <div
-                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center border-r-2 border-b-2  border-orange-400">
+                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center lg:border-r-2 lg:border-b-2 md:border-l-0   border-r-2 border-l-2 border-b-2  border-orange-400">
                             <img class="w-[70px] h-[70px]" src="./images/workout.png" alt="">
                             <h1 class="text-white text-[22px] font-semibold">Weight Loss</h1>
                             <div>
@@ -97,7 +104,7 @@
                         </div>
 
                         <div
-                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center border-r-2 border-b-2  border-orange-400">
+                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center  lg:border-r-2 lg:border-b-2 md:border-l-0 md:border-r-0 border-r-2 border-l-2 border-b-2  border-orange-400">
                             <img class="w-[70px] h-[70px]" src="./images/classic.png" alt="">
                             <h1 class="text-white text-[22px] font-semibold">Classic Yoga</h1>
                             <div>
@@ -111,7 +118,7 @@
 
 
                         <div
-                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center  border-b-2  border-orange-400">
+                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center lg:border-r-2 lg:border-b-2 md:border-l-0   border-r-2 border-l-2   md:border-b-2 border-b-2  border-orange-400">
                             <img class="w-[70px] h-[70px]" src="./images/bicycle.png" alt="">
                             <h1 class="text-white text-[22px] font-semibold">Cycling</h1>
                             <div>
@@ -123,7 +130,7 @@
                         </div>
 
                         <div
-                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center border-r-2 border-orange-400">
+                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center  border-b-2 border-l-2 border-r-2 md:border-r-0 border-orange-400">
                             <img class="w-[70px] h-[70px]" src="./images/fitness.png" alt="">
                             <h1 class="text-white text-[22px] font-semibold">Body Building</h1>
                             <div>
@@ -135,7 +142,7 @@
                         </div>
 
                         <div
-                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center border-r-2 border-orange-400">
+                            class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center border-l-2 md:border-l-0 border-r-2 border-b-2 md:border-b-0 border-orange-400">
                             <img class="w-[70px] h-[70px]" src="./images/dumvel.png" alt="">
                             <h1 class="text-white text-[22px] font-semibold">Musculation</h1>
                             <div>
@@ -146,7 +153,7 @@
                             </div>
                         </div>
 
-                        <div class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center "><img
+                        <div class="flex flex-col gap-4 px-[40px] py-17 justify-center items-center  border-l-2 md:border-l-0 border-r-2  md:border-r-0 border-orange-400 "><img
                                 class="w-[70px] h-[70px]" src="./images/runing.png" alt="">
                             <h1 class="text-white text-[22px] font-semibold">Fitness Running</h1>
                             <div>
@@ -160,7 +167,7 @@
                     </div>
                 </div>
                 <div
-                    class=" z-20  opacity-40 mx-auto bg-[url('./images/banner.png')] bg-[length:1230px_auto]  bg-no-repeat bg-right-top h-[900px] trasnform scale-y-[-1]">
+                    class=" z-20  opacity-40 mx-auto bg-[url('./images/banner.png')] lg:bg-[length:1230px_auto] md:bg-[length:850px_auto] bg-[length:400px_auto] h-[300px] bg-black  bg-no-repeat bg-right-top lg:h-[900px] md:h-[600px] trasnform scale-y-[-1]">
 
                 </div>
 
@@ -168,7 +175,7 @@
         </section>
 
         <!-- subscribe to plans section -->
-        <section class=" bg-black">
+        <section class=" bg-black hidden">
             <div class="max-w-[1400px] py-14 border-red-500 mx-auto px-14 ">
                 <h1 class="text-[47px] text-white font-semibold">Subscribe To <span class="text-[#FF921B]">Plans</span>
                 </h1>
@@ -208,7 +215,7 @@
             </div>
         </section>
         <!-- join out tainer -->
-        <section class=" bg-black">
+        <section class=" bg-black hidden">
             <div class="max-w-[1400px] py-14 border-red-500 mx-auto px-14 ">
                 <h1 class="text-[47px] text-white font-semibold">Join Out <span class="text-[#FF921B]">Trainer</span>
                 </h1>
@@ -227,7 +234,7 @@
             </div>
         </section>
         <!-- join with us section -->
-        <section class=" bg-black">
+        <section class=" bg-black hidden">
             <div class="max-w-[1400px] py-18 border-red-500 mx-auto px-14 ">
                 <h1 class="text-[47px] text-white font-semibold">Why Join With <span class="text-[#FF921B]">Us?</span>
                 </h1>
@@ -255,64 +262,67 @@
             </div>
         </section>
     </main>
-    <footer class="bg-black">
-      <section class="max-w-[1400px]  mx-auto px-14 bg-gradient-to-r from-[#393939] via-[#D9D9D900] to-[#393939]">
-          <div class="flex  justify-between h-[419px] items-center">
-            <div class="space-y-6 flex flex-col justify-start items-start">
-                <div class="flex flex-col items-center">
-                    <div class="flex items-center  ">
-                        <img src="./images/logo_left.png" alt="gym logo">
-                        <h1
-                            class="bg-gradient-to-r from-[#F66844] to-[#FF921B80] font-semibold text-3xl bg-clip-text text-transparent">
-                            Bodyshape</h1>
-                        <img src="./images/logo_right.png" alt="gym logo">
-                    </div>
-                    <p class="bg-gradient-to-r text-[14px] from-[#F66844] to-[#FF921B80]  bg-clip-text text-transparent">Unleash
-                        your inner athlete</p>
+    <footer class="bg-black hidden">
+        <section class=" bg-gradient-to-b from-[#1b1b1b] via-[#D9D9D900] to-[#1b1b1b]">
+            <div class="max-w-[1400px]  mx-auto px-14 h-[419px] flex justify-between  flex-row items-center  ">
+                <div class="space-y-6 flex flex-col justify-start items-start h-[150px] ">
+                    <div class="flex flex-col items-center">
+                        <div class="flex items-center  ">
+                            <img src="./images/logo_left.png" alt="gym logo">
+                            <h1
+                                class="bg-gradient-to-r from-[#F66844] to-[#FF921B80] font-semibold text-3xl bg-clip-text text-transparent">
+                                Bodyshape</h1>
+                            <img src="./images/logo_right.png" alt="gym logo">
+                        </div>
+                        <p
+                            class="bg-gradient-to-r text-[14px] from-[#F66844] to-[#FF921B80]  bg-clip-text text-transparent">
+                            Unleash
+                            your inner athlete</p>
 
+                    </div>
+                    <h1 class="text-white text-xl font-semibold">
+                        Support Your Need To<br>
+                        Much Fitness Goal
+                    </h1>
                 </div>
-                <h1 class="text-white text-xl font-semibold">
-                    Support Your Need To<br>
-                    Much Fitness Goal
-                </h1>
+                <div class="h-[150px]">
+                    <h1 class="text-xl font-semibold text-white">Company</h1>
+                    <p class="text-[18px] text-[#FFFFFF80] flex flex-col mt-3 "> <span>About</span>
+                        <span>Careers</span>
+                        <span>Blogs</span>
+                    </p>
+                </div>
+                <div class="h-[150px]">
+                    <h1 class="text-xl font-semibold text-white">Contact</h1>
+                    <p class="text-[18px] text-[#FFFFFF80] flex flex-col fl mt-3"> <span>Help \FAQ</span>
+                        <span>Press</span>
+                    </p>
+                </div>
+                <div class="h-[150px]">
+                    <h1 class="text-xl font-semibold text-white">More</h1>
+                    <p class="text-[18px] text-[#FFFFFF80] flex flex-col mt-3"> <span>Program</span>
+                        <span>Plan</span>
+                        <span>Method</span>
+                    </p>
+                </div>
+                <div class="h-[150px]">
+                    <h1 class="text-xl font-semibold text-white">Populer</h1>
+                    <p class="text-[18px] text-[#FFFFFF80]   w-[250px] flex flex-wrap gap-2  mt-3">
+                        <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Abs</span>
+                        <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Workout</span>
+                        <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Nutrition</span>
+                        <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Boxing</span>
+                        <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Gym</span>
+                        <span
+                            class="text-[16px] text-white bg-gradient-to-r from-[#F66844] to-[#FF921B] px-2 py-1 text-center">Facilities</span>
+                        <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Plans</span>
+                        <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Trainers</span>
+                    </p>
+                </div>
             </div>
-            <div>
-                <h1 class="text-xl font-semibold text-white">Company</h1>
-                <p class="text-[18px] text-[#FFFFFF80] flex flex-col mt-3"> <span>About</span>
-                    <span>Careers</span>
-                    <span>Blogs</span>
-                </p>
-            </div>
-            <div>
-                <h1 class="text-xl font-semibold text-white">Contact</h1>
-               <p class="text-[18px] text-[#FFFFFF80] flex flex-col mt-3"> <span>Help \FAQ</span>
-                    <span>Press</span>
-                </p>
-            </div>
-            <div>
-                <h1 class="text-xl font-semibold text-white">More</h1>
-               <p class="text-[18px] text-[#FFFFFF80] flex flex-col mt-3"> <span>Program</span>
-                    <span>Plan</span>
-                    <span>Method</span>
-                </p>
-            </div>
-            <div>
-                <h1 class="text-xl font-semibold text-white">Populer</h1>
-               <p class="text-[18px] text-[#FFFFFF80]   w-[250px] flex flex-wrap gap-2  mt-3"> 
-                    <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Abs</span>
-                    <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Workout</span>
-                    <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Nutrition</span>
-                    <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Boxing</span>
-                    <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Gym</span>
-                    <span class="text-[16px] text-white bg-gradient-to-r from-[#F66844] to-[#FF921B] px-2 py-1 text-center">Facilities</span>
-                    <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Plans</span>
-                    <span class="text-[16px] text-white bg-[#FFFFFF80]  px-2 py-1 text-center">Trainers</span>
-                </p>
-            </div>
-        </div>
-       
-      </section>
-       <div class="bg-[#FF921B] px-4 py-3">
+
+        </section>
+        <div class="bg-[#FF921B] px-4 py-3">
             <p class="text-center text-2xl text-white flex items-center justify-center"><span
                     class="text-4xl">&copy;</span>2023 All Rights Reserved</p>
         </div>
